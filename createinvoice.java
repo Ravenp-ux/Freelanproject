@@ -42,8 +42,9 @@ public class createinvoice  extends JFrame{
         try{
             Double am = Double.parseDouble(amount.getText());
             Double ba = Double.parseDouble(balance.getText());
-            Double ha =(am*0.12) + ba;
-            total.setText(String.valueOf(ha));
+            Double ha =(am*0.12) ;
+            Double hi = ha + ba;
+            total.setText(String.valueOf(hi));
         }catch (NumberFormatException e) {
             total.setText("Invalid Amount");
 
