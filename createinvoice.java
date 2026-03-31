@@ -32,7 +32,9 @@ public class createinvoice  extends JFrame{
                 String dt = date.getText();
                 String amm = amount.getText();
                 String bal = balance.getText();
-                JOptionPane.showMessageDialog(createinvoice.this, "NAME:" + nm + "\n" + "PROJECT_DISCRIPTION:"+ proj + "\n" + "DATE:" + dt + "\n" + "AMMOUNT:" + amm + "\n" + "BALANCE:" + bal + "\n\n" + total.getText())  ;
+                JOptionPane.showMessageDialog(createinvoice.this, "NAME: " + nm + "\n" + "PROJECT_DISCRIPTION: "+ proj + "\n" + 
+                                              "DATE: " + dt + "\n" + "AMMOUNT: " + amm + "\n" + "BALANCE: " + bal + "\n\n" +
+                                              total.getText())  ;
 
 
             }
