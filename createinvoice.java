@@ -35,6 +35,7 @@ public class createinvoice  extends JFrame{
                 JOptionPane.showMessageDialog(createinvoice.this, "NAME: " + nm + "\n" + "PROJECT_DISCRIPTION: "+ proj + "\n" + 
                                               "DATE: " + dt + "\n" + "AMMOUNT: " + amm + "\n" + "BALANCE: " + bal + "\n\n" +
                                               total.getText())  ;
+                dispose();
 
 
             }
