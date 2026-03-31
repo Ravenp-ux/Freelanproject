@@ -20,7 +20,8 @@ public class dashbord extends JFrame {
                 String message = "System Logout";
                 int confirmation = JOptionPane.showConfirmDialog(null, message, "System logout",JOptionPane.YES_NO_OPTION );
                 if (confirmation== JOptionPane.YES_NO_OPTION) {
-                    JOptionPane.showMessageDialog(null, "logout");
+                    JOptionPane.showMessageDialog(null, "Logout");
+                    dispose();
                 }
 
             }
